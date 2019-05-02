@@ -1,6 +1,12 @@
 # scalable_DNN
 Scalable DNN
 
+Both LSGD.py and CSGD.py are variation based on https://github.com/pytorch/examples/blob/master/imagenet/main.py.
+Hence, both needs torchvison to run.
+
+CSGD.py is a conventional synchronous distributed SGD implementation for baseline test.
+LSGD.py is the Layered SGD implmentation.
+
 Usage:
 When one node has four GPUs and 64 nodes (256 worker) are used in the running:
 
