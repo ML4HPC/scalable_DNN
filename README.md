@@ -5,7 +5,6 @@ Both LSGD.py and CSGD.py are variation based on https://github.com/pytorch/examp
 Hence, both needs torchvison to run.
 
 CSGD.py is a conventional synchronous distributed SGD implementation for baseline test.
-
 LSGD.py is the Layered SGD implmentation.
 
 Usage:
